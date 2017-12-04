@@ -4,8 +4,8 @@ body {
     
     
 }
-.navbar-dark .navbar-nav .nav-link {
-  color: pink;
+.navbar-dark .navbar-nav .nav-link  {
+  color: #009999;
   
 }
 
@@ -18,12 +18,10 @@ body {
   background-color: #272829 !important;
 }
 
-a {
+a: link {
     color: white;
     text-decoration: none;
-    background-color: transparent;
-    
-    
+    background-color: transparent;   
 }
 
 
@@ -90,8 +88,30 @@ a {
 }
 
 
+/* About us */
+.about {
+    color: white;
+    /*height: 450px;*/
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*h2 {
+    color: pink;
+    padding-left: 70px;
+    padding-top: 40px;
+}*/
+
+.line-break-about {border-bottom: 1px solid white; width: 150px; margin:0 auto; margin-bottom: 50px;}
+
+
 
 /* Gallery */
+
+.title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+.title h1 {font-size:35px; letter-spacing:8px;}
 /*{
   margin: 0;
   padding: 0;
@@ -192,7 +212,7 @@ a {
   padding: 15px;
   width: 100%;
   background-color: black;
-  color: white;
+  color: #009999;
   opacity: 0.8;
 }
 
@@ -215,12 +235,17 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  	background-color: #333;
+  	background-color: #272829;
+    
     
 }
 
 h1 .btn {
 	font-size:30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
 }
 
 
@@ -229,11 +254,11 @@ h1 .btn {
     
     background-image: url(../images/dice.jpg);
     background-size: cover;
-    color: #868e96;
-    height: 475px;
-    
-    
+    color: #009999;
+    height: 460px;
 }
+
+
 
 /* footer */
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
@@ -241,5 +266,8 @@ h1 .btn {
 {
     background-color: lightgray;
     text-align: center;
+    padding-top: 10px;
     
 }
+
+.line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
