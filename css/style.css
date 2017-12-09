@@ -1,6 +1,6 @@
 /* Navbar */
 body {
-    background-color: black;
+    background-color: #000000;
     
     
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .navbar, .navbar-expand-md, .navbar-dark, .bg-primary, .sticky-top {
-  background-color: #000000 !important;
+  background-color: black !important;
 }
 
 a: link {
@@ -23,6 +23,14 @@ a: link {
     text-decoration: none;
     background-color: transparent;   
 }
+
+/*.navbar-brand, index.html {
+    background-color: #009999;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}*/
 
 
 
@@ -245,8 +253,9 @@ h1 .btn {
     padding-top: 10px;
     padding-bottom: 10px;
     
-    
 }
+
+
 
 
 /* Jumbotron */
@@ -266,8 +275,17 @@ h1 .btn {
 {
     background-color: lightgray;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
     
 }
 
 .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+
+
+
+
+
+

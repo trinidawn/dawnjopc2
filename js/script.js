@@ -108,3 +108,5 @@ $.fn.goValidate = function() {
 };
 $('form').goValidate();
 
+
+
